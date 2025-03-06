@@ -1,1 +1,2 @@
-- Tạo branch demo kiểm tra conflict
+- Tạo branch demo kiểm tra conflict. 
+Thuộc Branch : conflict. 
