@@ -1,2 +1,2 @@
-- Tạo branch demo kiểm tra merge.
+- test
 thuộc : conflict và main
