@@ -1,0 +1,65 @@
+/* CSS cho thanh công cụ */
+.navbar {
+    background-color: #333;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* CSS cho phần danh sách người dùng */
+.user-list-container {
+    max-width: 800px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-list-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+table td button {
+    margin-right: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+table td button:hover {
+    background-color: #0056b3;
+}

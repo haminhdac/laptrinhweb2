@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="public/css/register.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="login.html">Home</a></li>
+            <li><a href="login.html">Đăng nhập</a></li>
+            <li><a href="register.html">Đăng ký</a></li>
+            <li><a href="List.html">Danh sách</a></li>
+            <li><a href="update.html">Chỉnh sửa</a></li>
+            <li><a href="View.html">Chi tiết</a></li>
+        </ul>
+    </nav>
+
+    <div class="register-container">
+        <h2>Đăng ký</h2>
+        <form action="#" method="POST">
+            <div class="input-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Mật khẩu:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="input-group">
+                <label for="confirm-password">Nhập lại mật khẩu:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <button type="submit" class="register-btn">Đăng ký</button>
+        </form>
+       
+        <p class="login-link"> <a class="login-link" href="login.html">Đã có tài khoản?</a></p>
+    </div>
+    
+</body>
+</html>
